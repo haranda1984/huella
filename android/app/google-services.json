@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "71110716945",
+    "firebase_url": "https://huelladesarrollos-hd0001-default-rtdb.firebaseio.com",
+    "project_id": "huelladesarrollos-hd0001",
+    "storage_bucket": "huelladesarrollos-hd0001.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71110716945:android:dac99cb15e897b0e550bb0",
+        "android_client_info": {
+          "package_name": "com.huella"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKm0RSOGCGVmhtvrSKLIqZypdQep2Um58"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

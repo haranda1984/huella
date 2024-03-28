@@ -26,14 +26,13 @@
 	<true/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
-	  <!-- Do not change NSAllowsArbitraryLoads to true, or you will risk app rejection! -->
 		<key>NSAllowsArbitraryLoads</key>
 		<false/>
 		<key>NSAllowsLocalNetworking</key>
 		<true/>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -48,5 +47,88 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Afacad-Bold.ttf</string>
+		<string>Afacad-Italic.ttf</string>
+		<string>Afacad-Medium.ttf</string>
+		<string>Afacad-Regular.ttf</string>
+		<string>Afacad-SemiBold.ttf</string>
+		<string>BungeeHairline-Regular.ttf</string>
+		<string>BungeeInline-Regular.ttf</string>
+		<string>DeliciousHandrawn-Regular.ttf</string>
+		<string>Dosis-Bold.ttf</string>
+		<string>Dosis-ExtraBold.ttf</string>
+		<string>Dosis-ExtraLight.ttf</string>
+		<string>Dosis-Light.ttf</string>
+		<string>Dosis-Medium.ttf</string>
+		<string>Dosis-Regular.ttf</string>
+		<string>Dosis-SemiBold.ttf</string>
+		<string>Kalnia-Bold.ttf</string>
+		<string>Kalnia-ExtraLight.ttf</string>
+		<string>Kalnia-Light.ttf</string>
+		<string>Kalnia-Medium.ttf</string>
+		<string>Kalnia-Regular.ttf</string>
+		<string>Kalnia-SemiBold.ttf</string>
+		<string>Kalnia-Thin.ttf</string>
+		<string>Mina-Bold.ttf</string>
+		<string>Mina-Regular.ttf</string>
+		<string>Monofett-Regular.ttf</string>
+		<string>Monoton-Regular.ttf</string>
+		<string>Montserrat-Black.ttf</string>
+		<string>Montserrat-Bold.ttf</string>
+		<string>Montserrat-Italic.ttf</string>
+		<string>Montserrat-Light.ttf</string>
+		<string>Montserrat-Medium.ttf</string>
+		<string>Montserrat-Regular.ttf</string>
+		<string>Montserrat-SemiBold.ttf</string>
+		<string>Montserrat-Thin.ttf</string>
+		<string>MrDafoe-Regular.ttf</string>
+		<string>Neucha-Regular.ttf</string>
+		<string>NothingYouCouldDo-Regular.ttf</string>
+		<string>Nunito-Black.ttf</string>
+		<string>Nunito-Bold.ttf</string>
+		<string>Nunito-Italic.ttf</string>
+		<string>Nunito-Light.ttf</string>
+		<string>Nunito-Medium.ttf</string>
+		<string>Nunito-Regular.ttf</string>
+		<string>Nunito-SemiBold.ttf</string>
+		<string>PortLligatSans-Regular.ttf</string>
+		<string>Quicksand-Bold.ttf</string>
+		<string>Quicksand-Light.ttf</string>
+		<string>Quicksand-Medium.ttf</string>
+		<string>Quicksand-Regular.ttf</string>
+		<string>Quicksand-SemiBold.ttf</string>
+		<string>Roboto-Black.ttf</string>
+		<string>Roboto-Bold.ttf</string>
+		<string>Roboto-Italic.ttf</string>
+		<string>Roboto-Light.ttf</string>
+		<string>Roboto-Medium.ttf</string>
+		<string>Roboto-Regular.ttf</string>
+		<string>Roboto-Thin.ttf</string>
+		<string>RobotoCondensed-Black.ttf</string>
+		<string>RobotoCondensed-Bold.ttf</string>
+		<string>RobotoCondensed-Italic.ttf</string>
+		<string>RobotoCondensed-Light.ttf</string>
+		<string>RobotoCondensed-Medium.ttf</string>
+		<string>RobotoCondensed-Regular.ttf</string>
+		<string>RobotoCondensed-SemiBold.ttf</string>
+		<string>RobotoCondensed-Thin.ttf</string>
+		<string>Silkscreen-Bold.ttf</string>
+		<string>Silkscreen-Regular.ttf</string>
+		<string>SixCaps-Regular.ttf</string>
+		<string>Thasadith-Bold.ttf</string>
+		<string>Thasadith-BoldItalic.ttf</string>
+		<string>Thasadith-Italic.ttf</string>
+		<string>Thasadith-Regular.ttf</string>
+		<string>Ubuntu-Bold.ttf</string>
+		<string>Ubuntu-Italic.ttf</string>
+		<string>Ubuntu-Light.ttf</string>
+		<string>Ubuntu-Medium.ttf</string>
+		<string>Ubuntu-Regular.ttf</string>
+		<string>Whisper-Regular.ttf</string>
+		<string>ZenLoop-Italic.ttf</string>
+		<string>ZenLoop-Regular.ttf</string>
+	</array>
 </dict>
 </plist>
