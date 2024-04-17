@@ -1,0 +1,40 @@
+[debug] [2024-04-16T23:49:09.901Z] ----------------------------------------------------------------------
+[debug] [2024-04-16T23:49:09.904Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2024-04-16T23:49:09.905Z] CLI Version:   13.7.1
+[debug] [2024-04-16T23:49:09.905Z] Platform:      win32
+[debug] [2024-04-16T23:49:09.905Z] Node Version:  v20.11.1
+[debug] [2024-04-16T23:49:09.905Z] Time:          Tue Apr 16 2024 17:49:09 GMT-0600 (hora estándar central)
+[debug] [2024-04-16T23:49:09.905Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-16T23:49:09.921Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-04-16T23:49:10.081Z] Object "" in "firebase.json" has unknown property: {"additionalProperty":"react-native"}
+[debug] [2024-04-16T23:49:10.090Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-16T23:49:10.090Z] > authorizing via signed-in user (dev@huelladesarrollos.com)
+[debug] [2024-04-16T23:49:10.203Z] openjdk version "17.0.10" 2024-01-16 LTS
+
+[debug] [2024-04-16T23:49:10.204Z] OpenJDK Runtime Environment Microsoft-8902769 (build 17.0.10+7-LTS)
+OpenJDK 64-Bit Server VM Microsoft-8902769 (build 17.0.10+7-LTS, mixed mode, sharing)
+
+[debug] [2024-04-16T23:49:10.229Z] Parsed Java major version: 17
+[info] i  emulators: Starting emulators: auth, database {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, database"}}
+[debug] [2024-04-16T23:49:10.252Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-16T23:49:10.252Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-16T23:49:10.252Z] [database] Database Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-04-16T23:49:10.252Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"database":[{"address":"127.0.0.1","family":"IPv4","port":9000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-04-16T23:49:10.258Z] [hub] writing locator at C:\Users\HERIBE~1\AppData\Local\Temp\hub-huelladesarrollos-hd0001.json
+[debug] [2024-04-16T23:49:10.273Z] > refreshing access token with scopes: []
+[debug] [2024-04-16T23:49:10.275Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-04-16T23:49:10.275Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-04-16T23:49:10.286Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-04-16T23:49:10.286Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2024-04-16T23:49:10.469Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-04-16T23:49:10.469Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-04-16T23:49:10.513Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/huelladesarrollos-hd0001 [none]
+[debug] [2024-04-16T23:49:10.774Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/huelladesarrollos-hd0001 200
+[debug] [2024-04-16T23:49:10.774Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/huelladesarrollos-hd0001 {"projectId":"huelladesarrollos-hd0001","projectNumber":"71110716945","displayName":"huellaDesarrollos","name":"projects/huelladesarrollos-hd0001","resources":{"hostingSite":"huelladesarrollos-hd0001","realtimeDatabaseInstance":"huelladesarrollos-hd0001-default-rtdb","storageBucket":"huelladesarrollos-hd0001.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_d30805c9-7d86-4fe4-9337-df13fe620291"}
+[debug] [2024-04-16T23:49:10.775Z] database rules config:  [{"instance":"huelladesarrollos-hd0001-default-rtdb","rules":"C:\\Users\\heriberto\\Dev\\cli\\huella\\database.rules.json"}]
+[debug] [2024-04-16T23:49:10.782Z] Ignoring unsupported arg: projectId {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: projectId"}}
+[debug] [2024-04-16T23:49:10.782Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-04-16T23:49:10.782Z] Ignoring unsupported arg: rules {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: rules"}}
+[debug] [2024-04-16T23:49:10.782Z] Starting Database Emulator with command {"binary":"java","args":["-Duser.language=en","-jar","C:\\Users\\heriberto\\.cache\\firebase\\emulators\\firebase-database-emulator-v4.11.2.jar","--host","127.0.0.1","--port",9000,"--single_project_mode","Warning"],"optionalArgs":["port","host","functions_emulator_port","functions_emulator_host","single_project_mode"],"joinArgs":false} {"metadata":{"emulator":{"name":"database"},"message":"Starting Database Emulator with command {\"binary\":\"java\",\"args\":[\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\heriberto\\\\.cache\\\\firebase\\\\emulators\\\\firebase-database-emulator-v4.11.2.jar\",\"--host\",\"127.0.0.1\",\"--port\",9000,\"--single_project_mode\",\"Warning\"],\"optionalArgs\":[\"port\",\"host\",\"functions_emulator_port\",\"functions_emulator_host\",\"single_project_mode\"],\"joinArgs\":false}"}}
+[info] i  database: Database Emulator logging to database-debug.log {"metadata":{"emulator":{"name":"database"},"message":"Database Emulator logging to \u001b[1mdatabase-debug.log\u001b[22m"}}
