@@ -31,41 +31,41 @@ const LoginScreen: React.FC<LoginScreenProps> = ({ onLoginSuccess, navigation })
   };
 
     const handleSignUp = () => {
-      if(email.trim() ==='' || password.trim() ==='') {
-        Alert.alert("Error", "El correo electrónico y la contraseña son obligatorios.");
+      if (email.trim() === '' || password.trim() === '') {
+        Alert.alert('Error', 'El correo electrónico y la contraseña son obligatorios.');
         return;
       }
       auth()
         .createUserWithEmailAndPassword(email, password)
         .then(() => {
           console.log('User account created & signed in!');
-          Alert.alert("Cuenta Creada", "Cuenta de usuario creada y conectada.");
+          Alert.alert('Cuenta Creada', 'Cuenta de usuario creada y conectada.');
           onLoginSuccess();
         })
         .catch(error => {
           if (error.code === 'auth/email-already-in-use') {
-            Alert.alert("Error", "Esa dirección de correo electrónico ya está en uso.");
+            Alert.alert('Error', 'Esa dirección de correo electrónico ya está en uso.');
           } else if (error.code === 'auth/invalid-email') {
-            Alert.alert("Error", "Esa dirección de correo electrónico es inválida.");
+            Alert.alert('Error', 'Esa dirección de correo electrónico es inválida.');
           } else {
-            Alert.alert("Error de autenticación", error.message);
+            Alert.alert('Error de autenticación', error.message);
           }
         });
     };
 
     const handleLogin = () => {
-      if(email.trim() ==='' || password.trim() ==='') {
-        Alert.alert("Error", "El correo electrónico y la contraseña son obligatorios.");
+      if (email.trim() === '' || password.trim() === '') {
+        Alert.alert('Error', 'El correo electrónico y la contraseña son obligatorios.');
         return;
       }
       auth()
         .signInWithEmailAndPassword(email, password)
         .then(() => {
-          Alert.alert("Inicio de sesión exitoso", "Has iniciado sesión correctamente.");
+          Alert.alert('Inicio de sesión exitoso', 'Has iniciado sesión correctamente.');
           onLoginSuccess();
         })
         .catch(error => {
-          Alert.alert("Error de autenticación", error.message);
+          Alert.alert('Error de autenticación', error.message);
         });
     };
 
@@ -152,7 +152,7 @@ const styles = StyleSheet.create({
     color: '#6f7755', // Color del texto del botón
     fontSize: 15,
     fontFamily: 'Ubuntu-Regular',
-  }
+  },
 });
 
 export default LoginScreen;

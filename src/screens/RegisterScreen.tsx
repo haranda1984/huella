@@ -27,7 +27,7 @@ const RegisterScreen = () => {
             email: 'nico@rootinc.mx',
             password: '265Aa17B50.',
             displayName: 'Nicolas',
-            disable: 'false'
+            disable: 'false',
 
         });
 
