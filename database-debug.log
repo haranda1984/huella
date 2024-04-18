@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
-23:37:26.829 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
-23:37:27.100 [main] INFO com.firebase.server.forge.App$ - Listening at 127.0.0.1:9000
-23:37:37.092 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO com.firebase.core.namespace.NamespaceActor - huelladesarrollos-hd0001-default-rtdb successfully activated FBKV (SurveyIdle(0)) wait: 213ms, init: 0ms
-23:37:37.196 [NamespaceSystem-blocking-namespace-operation-dispatcher-6] INFO com.firebase.core.namespace.StateManager - Namespace huelladesarrollos-hd0001-default-rtdb status Active to Active
->>>>>>> 8ecb8e61921b4a96ae1403fc09b57a7abc91cacd
+09:16:20.325 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+09:16:20.583 [main] INFO com.firebase.server.forge.App$ - Listening at 127.0.0.1:9000
+09:16:30.530 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO com.firebase.core.namespace.NamespaceActor - huelladesarrollos-hd0001-default-rtdb successfully activated FBKV (SurveyIdle(0)) wait: 223ms, init: 0ms
+09:16:30.693 [NamespaceSystem-blocking-namespace-operation-dispatcher-6] INFO com.firebase.core.namespace.StateManager - Namespace huelladesarrollos-hd0001-default-rtdb status Active to Active
