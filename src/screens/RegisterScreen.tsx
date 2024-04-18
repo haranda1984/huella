@@ -1,6 +1,10 @@
-import React, { useState } from "react";
-import { View, TextInput, Button, Alert, StyleSheet } from "react-native";
-import auth from "@react-native-firebase/auth";
+/* eslint-disable prettier/prettier */
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable prettier/prettier */
+
+import React, { useState } from 'react';
+import {View,TextInput,Button,Alert,StyleSheet} from 'react-native';
+import auth from '@react-native-firebase/auth';
 import database from '@react-native-firebase/database';
 
 const reference = database().ref('http://10.0.2.2:9000');
@@ -24,9 +28,9 @@ const RegisterScreen = () => {
             password: '265Aa17B50.',
             displayName: 'Nicolas',
             disable: 'false'
-        
+
         });
 
-}
+};
 
 export default RegisterScreen;

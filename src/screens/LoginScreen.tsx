@@ -1,6 +1,9 @@
-import React, { useState, useEffect } from 'react';
-import { ScrollView, View, TextInput, Image, Text, StyleSheet,  Alert, TouchableOpacity } from 'react-native';
-import { StackNavigationProp } from '@react-navigation/stack';
+/* eslint-disable prettier/prettier */
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable prettier/prettier */
+import React, {useState,useEffect} from 'react';
+import {ScrollView,View,TextInput,Image,Text,StyleSheet, Alert,TouchableOpacity} from 'react-native';
+import {StackNavigationProp} from '@react-navigation/stack';
 
 // Si estás utilizando TypeScript y tienes un tipo para los parámetros de tu navegador
 // import { RootStackParamList } from 'path-to-your-root-stack-param-list';
